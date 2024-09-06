@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Marketing graduated turned DevRel. I love building trust and social connections. Very active on Twitter.",
   summary:
-    "At the end of july, I quit my job at a fintech to pursue a full-time position in the crypto industry. In the past, [I earned a double degree in social communication and journalism](/#education), [worked in financial services advisory, technical support, and integrations analysis](/#experience), and [completed several blockchain certifications](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of july, I quit my job at a fintech to pursue a full-time position in the crypto industry. In the past, [I earned a double degree in social communication and journalism](/#education), [worked in financial services advisory, technical support, and integrations analysis](/#experience), and [completed several blockchain certifications](/#hackathons). I also coordinated the first-ever Argentine in-person cohort of a programmable cryptography bootcamp, the [PSE Core Program](https://github.com/privacy-scaling-explorations/core-program/blob/main/2024/week0_course_primer.md).",
   avatarUrl: "/me.png",
   skills: [
     "React",
