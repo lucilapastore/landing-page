@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Marketing graduated turned DevRel. I love building trust and social connections. Very active on Twitter.",
   summary:
-    "At the end of july, I quit my job as a tech support lead to go fulltime into building and scaling my own Web3 journey. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of july, I quit my job at a fintech to pursue a full-time position in the crypto industry. In the past, [I earned a double degree in social communication and journalism](/#education), [worked in financial services advisory, technical support, and integrations analysis](/#experience), and [completed several blockchain certifications](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -135,7 +135,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
+      school: "Cyfrin",
       href: "https://buildspace.so",
       degree: "s3, s4, sf1, s5",
       logoUrl: "/buildspace.jpg",
@@ -143,12 +143,21 @@ export const DATA = {
       end: "2024",
     },
     {
-      school: "University of Waterloo",
+      school: "Alchemy",
       href: "https://uwaterloo.ca",
       degree: "Bachelor's Degree of Computer Science (BCS)",
       logoUrl: "/waterloo.png",
       start: "2016",
       end: "2021",
+    },
+
+    {
+      school: "Microverse",
+      href: "https://ibo.org",
+      degree: "IB Diploma",
+      logoUrl: "/ib.png",
+      start: "2012",
+      end: "2016",
     },
     {
       school: "Wilfrid Laurier University",
@@ -157,14 +166,6 @@ export const DATA = {
       logoUrl: "/laurier.png",
       start: "2016",
       end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
     },
   ],
   projects: [
