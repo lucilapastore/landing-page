@@ -126,7 +126,7 @@ export const DATA = {
       badges: [],
       location: "Buenos Aires, AR",
       title: "Incident Management Lead",
-      logoUrl: "/lime.svg",
+      logoUrl: "/compre_ahora.jpeg",
       start: "Feb 2020",
       end: "Jul 2021",
       description:
