@@ -61,64 +61,64 @@ export const DATA = {
 
   work: [
     {
-      company: "Ethereum Foundation",
-      href: "https://atomic.finance",
+      company: "Privacy + Scaling Explorations",
+      href: "https://pse.dev/en",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      location: "Buenos Aires",
+      title: "Coordinator at Programmable Cryptography Bootcamp",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "Apr 2024",
+      end: "Oct 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "The Privacy and Scaling Explorations team at the Ethereum Foundation trusted me to lead an 8-week Contribution Program focused on zero-knowledge proof technologies. This position involved significant local engagement alongside online coordination.",
     },
     {
       company: "Wallbit Pay",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://wallbit.io/",
       location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      title: "Technical Support Lead",
+      logoUrl: "/wallbit_logo.png",
+      start: "Apr 2023",
+      end: "Jul 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Wallbit is a Neobank for global remote workers that provides non-US residents access to a US bank account where they can receive their income, save money, and invest. I was the escalation point for complex user issues and worked with product and engineering teams to resolve bugs and incidents.",
     },
     {
       company: "Ethereum Argentina",
-      href: "https://mitremedia.com/",
+      href: "https://x.com/EtherArgentina",
       badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
+      location: "Buenos Aires, AR",
+      title: "Content Creator & CM (Volunteering)",
+      logoUrl: "/ethereumargentina_logo.jpeg",
+      start: "Apr 2023",
+      end: "Sep 2023",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "I was in charge of the Social Media Strategy, Content Creation, Community Engagement, Cross-functional Team Collaboration. During that period, we grew our Twitter presence from 900 to 5000 followers, demonstrating a significant increase in engagement and visibility.",
     },
     {
-      company: "PwC Argentina",
-      href: "https://nvidia.com/",
+      company: "DeFi Argentina (Volunteering)",
+      href: "https://x.com/DefiArgentina",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      location: "Buenos Aires, AR",
+      title: "Community Builder",
+      logoUrl: "/defiargentina_logo.jpg",
+      start: "May 2023",
+      end: "Dec 2023",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "DeFi Argentina is a non-profit project focused on helping children foodbanks in Argentina, by collecting donations in cryptocurrencies.",
     },
     {
       company: "PayRetailers",
       href: "https://splunk.com",
       badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
+      location: "Remote",
+      title: "Technical Support and Integrations Analyst",
       logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
+      start: "Feb 2022",
+      end: "Jan 2023",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "PayRetailers offers payment solutions for online services in LATAM region. I gave B2B technical support and advice to merchants. I focused on providing integration support as well as technical support to merchants.",
     },
     {
       company: "Unilever",
@@ -168,6 +168,7 @@ export const DATA = {
       end: "2021",
     },
   ],
+
   projects: [
     {
       title: "Chat Collect",
@@ -291,7 +292,7 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
-  ],
+  ] /*
   hackathons: [
     {
       title: "Hack Western 5",
@@ -676,5 +677,5 @@ export const DATA = {
         },
       ],
     },
-  ],
+  ],*/,
 } as const;
