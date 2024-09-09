@@ -22,7 +22,11 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    {
+      href: "https://medium.com/@lucilajuliana",
+      icon: NotebookIcon,
+      label: "Blog",
+    },
   ],
   contact: {
     email: "lucilapastore@gmail.com",
@@ -97,11 +101,11 @@ export const DATA = {
         "I was in charge of the Social Media Strategy, Content Creation, Community Engagement, Cross-functional Team Collaboration. During that period, we grew our Twitter presence from 900 to 5000 followers, demonstrating a significant increase in engagement and visibility.",
     },
     {
-      company: "DeFi Argentina (Volunteering)",
+      company: "DeFi Argentina",
       href: "https://x.com/DefiArgentina",
       badges: [],
       location: "Buenos Aires, AR",
-      title: "Community Builder",
+      title: "Community Builder (Volunteering)",
       logoUrl: "/defiargentina_logo.jpg",
       start: "May 2023",
       end: "Dec 2023",
