@@ -172,7 +172,7 @@ export const DATA = {
       end: "2016",
     },
   ],
-
+  /*
   projects: [
     {
       title: "Chat Collect",
@@ -296,7 +296,7 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
-  ] /*
+  ] 
   hackathons: [
     {
       title: "Hack Western 5",
@@ -681,5 +681,5 @@ export const DATA = {
         },
       ],
     },
-  ],*/,
+  ],*/
 } as const;
