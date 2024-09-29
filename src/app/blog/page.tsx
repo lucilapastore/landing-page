@@ -1,3 +1,4 @@
+/*
 import BlurFade from "@/components/magicui/blur-fade";
 import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
@@ -44,3 +45,4 @@ export default async function BlogPage() {
     </section>
   );
 }
+*/

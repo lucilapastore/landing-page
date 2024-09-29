@@ -1,3 +1,4 @@
+/*
 import { getPost } from "@/data/blog";
 import { DATA } from "@/data/resume";
 import { formatDate } from "@/lib/utils";
@@ -100,3 +101,4 @@ export default async function Blog({
     </section>
   );
 }
+*/

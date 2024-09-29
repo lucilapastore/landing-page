@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 
 export const DATA = {
   name: "Lucila Pastore",
@@ -8,7 +8,7 @@ export const DATA = {
   location: "Palermo, CABA",
   locationLink: "https://maps.app.goo.gl/SByenyPs3sjPS4Jp7",
   description:
-    "Marketing graduated turned DevRel. I love building trust and social connections. Very active on Twitter.",
+    "Marketing graduate turned DevRel. I love building trust and social connections. Very active on Twitter.",
   summary:
     "At the end of july, I quit my job at a fintech to pursue a full-time position in the crypto industry. In the past, [I earned a double degree in social communication and journalism](/#education), [worked in financial services advisory, technical support, and integrations analysis](/#experience), and [completed several blockchain certifications](/#projects). I was also the programming curator & organizer for ZK Track, a week-long event at [Aleph](https://www.aleph.crecimiento.build/) focused on zero-knowledge and privacy.",
   avatarUrl: "/me.png",
@@ -28,6 +28,8 @@ export const DATA = {
       icon: NotebookIcon,
       label: "Blog",
     },
+    { href: "#projects", icon: CodeIcon, label: "Projects" },
+    { href: "#contact", icon: PencilLine, label: "Contact" },
   ],
   contact: {
     email: "lucilapastore@gmail.com",
@@ -173,71 +175,78 @@ export const DATA = {
       end: "2016",
     },
   ],
-  /*
+
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Investment Calculator",
+      href: "https://calcuinvest.vercel.app/",
+      //dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "A React-powered Investment Calculator. Website visitors can use this web application to calculate various future values based on specific investment parameters.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        //"Next.js",
+        //"Typescript",
+        // "PostgreSQL",
+        "React",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        //"Stripe",
+        // "Shadcn UI",
+        //"Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
+          href: "https://calcuinvest.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/lucilapastore/investment-calculator",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
+      title: "Project Management App",
+      href: "",
+      //dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Designed, developed and sold animated UI components for developers.",
+      technologies: [
+        /* "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+       
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",*/
+        "JavaScript",
+        "React",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://project-management-app-steel.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/project-management-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "", //add image
+      video: "",
+    },
+    {
+      title: "Quiz App",
+      href: "",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -256,27 +265,28 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "",
     },
+    ,
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Calorie Counter",
+      href: "",
+      //dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "In this web application I learned how to validate user input, perform calculations based on that input, and dynamically update the interface to display the results.",
       technologies: [
-        "Next.js",
+        /*"Next.js",
         "Typescript",
         "PostgreSQL",
         "Prisma",
@@ -284,20 +294,20 @@ export const DATA = {
         "Shadcn UI",
         "Magic UI",
         "Stripe",
-        "Cloudflare Workers",
+        "Cloudflare Workers",*/
+        "JavaScript",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: "",
     },
-  ] 
+  ] /*
   hackathons: [
     {
       title: "Hack Western 5",
@@ -682,5 +692,5 @@ export const DATA = {
         },
       ],
     },
-  ],*/
+  ],*/,
 } as const;

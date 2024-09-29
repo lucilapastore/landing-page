@@ -1,5 +1,6 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
+import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -109,7 +110,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/*
+
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -150,7 +151,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>*/}
+      </section>
       {/*
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
@@ -213,7 +214,7 @@ export default function Page() {
                 >
                   with a direct question on twitter
                 </Link>{" "}
-                and I&apos;ll respond whenever I can.
+                and I&apos;ll respond.
               </p>
             </div>
           </BlurFade>
