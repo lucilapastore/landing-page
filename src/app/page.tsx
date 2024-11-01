@@ -121,7 +121,7 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Take a look at some of what I've been working on
+                  Take a look at some of what I&apos;ve been working on
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;m working on projects from simple websites to complex
