@@ -287,18 +287,17 @@ export const DATA = {
       ],
     },
     {
-      title: "Bugcrowd LevelUp",
-      dates: "April 10th, 2021",
-      location: "Online",
+      title: "Invisible Garden Hackathon",
+      dates: "September 30 - November 10, 2024",
+      location: "Chiang Mai, Thailand",
       description:
-        "Participated in a virtual event focused on enhancing the skills of bug bounty hunters.",
-      image:
-        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEX////959/60MDxUgDxWgD5w6/yZx/yaCLxXgD3sJXxYAjyYQ/3poj+8+70gE7zeEDxWQD96+T1kGfyYxX1lnH0hFX72Mz3qIv70cPzczfyaiX5v6r+9/T/+vf4tJv2nXr0iV32nn1FGKDsAAAA5UlEQVR4AbWRR4KFIAxAY0uwR5mx1/tfcoRvGHT/3448IA2+TODxdmEUO6LkJRHJgerp0ozw3+eF78qYsKrqXCw3nmw1xQDwo2+pf8HRMZHqAHr3NB5AGE22qISCmRUaiZO4WdnLl0yWtavt39kGllXhLVcw1HI07DnJqeVqhc5+pFsrDy1yjkkVALGVlTR5y13b2IReq2kmBeX2t+wxJMSPbCIVddDERJitIsP4I6GZAzCfk/IWU+lLrmAjqXk4+ptmE6j1tO9kMnIHHmd+WSTUGqVHQaYkcAkPZlYO3uBF6AHf5Q/1ow5yOIAYvAAAAABJRU5ErkJggg==",
+        "Participated in a ZKP pop-up dev city, dedicated to fostering the synergy of technology, culture, and community.",
+      image: "https://x.com/invisiblgarden/photo",
       links: [
         {
           title: "Event Details",
           icon: <Icons.globe className="size-4" />,
-          href: "https://www.bugcrowd.com/blog/how-to-succeed-in-bug-bounties-as-a-pentester/",
+          href: "https://mirror.xyz/0x8f43115B07B3cAa2eeE72989E8c206Ec8E10FB92/dQ54VVgQg91V4Pv6Ee3iVi0KAFEP0ON2OIZwhbMJdsQ",
         },
       ],
     },
