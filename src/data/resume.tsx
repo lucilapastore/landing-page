@@ -271,18 +271,18 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "HackerOne Live Hacking Event",
-      dates: "June 14th - 16th, 2022",
-      location: "Las Vegas, Nevada",
+      title: "ETHGlobal Bangkok",
+      dates: "November 15 - 17, 2024",
+      location: "Bangkok, Thailand",
       description:
-        "Participated in a live hacking event, uncovering security vulnerabilities in various web applications.",
+        "We built a daily checkin app to expand female health data by building a global female-specific data lake.",
       image:
-        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAATlBMVEVHcEwHBwcDAwMAAAAAAAAAAAB6enoXFxcAAAAAAAAAAAAAAAABAQETExPBwcEiIiKdnZ1DQ0NYWFjS0tL39/f///9JSUnFxcXFxcX///8JH38iAAAAGnRSTlMAlfLQSv8HlylrPzWs+y7qeuW1WQ4zep2JBO1Yg5cAAABnSURBVHgB3Yy1AcAwDARN5zDz/oOGm4AW8DWCB3WjjXVKAtBeFomCE+MkSQXRJxbMv5jlBuBXTAoQRJUaZLGsoKqk2rppu1YS+27otSTu+ChosaEYr200NC+xm+by2sp56tSLZfluG3lXBtEeABadAAAAAElFTkSuQmCC",
+        "https://ethglobal.b-cdn.net/events/bangkok/square-logo/default.png",
       links: [
         {
           title: "Event Details",
           icon: <Icons.globe className="size-4" />,
-          href: "https://www.hackerone.com/resources/hackerone/live-hacking-event-invitations-2022-guide",
+          href: "https://ethglobal.com/events/bangkok",
         },
       ],
     },
