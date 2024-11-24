@@ -56,6 +56,13 @@ export const DATA = {
 
         navbar: true,
       },
+      Telegram: {
+        name: "Telegram",
+        url: "https://t.me/lucilajulianaa",
+        icon: Icons.x,
+
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "#",
@@ -177,22 +184,22 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Conventional Emoji Commits",
-      href: "https://conventional-emoji-commits.site",
+      title: "Investment Calculator",
+      href: "https://calcuinvest.vercel.app/",
       dates: "Oct 2023 - Present",
       active: true,
       description:
-        "A specification for adding human and machine readable meaning to commit messages using color-rich emojis 🌈",
+        "The website visitors can use this web application to calculate multiple future values for given investment parameters.",
       technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
       links: [
         {
           type: "Website",
-          href: "https://conventional-emoji-commits.site",
+          href: "https://calcuinvest.vercel.app/",
           icon: <Icons.openai className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/conventional-emoji-commits/conventional-emoji-commits.site",
+          href: "https://github.com/lucilapastore/investment-calculator",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -200,22 +207,22 @@ export const DATA = {
       video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
     },
     {
-      title: "Conventional Emoji Commits",
-      href: "https://conventional-emoji-commits.site",
+      title: "Rock Paper Scissors Online",
+      href: "https://rock-paper-scissors-lilac-ten.vercel.app/",
       dates: "Oct 2023 - Present",
       active: true,
       description:
-        "A specification for adding human and machine readable meaning to commit messages using color-rich emojis 🌈",
-      technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
+        "In this mini project, I reviewed conditionals, functions, getElementById, and more.",
+      technologies: ["JavaScript", "HTML", "CSS"],
       links: [
         {
           type: "Website",
-          href: "https://conventional-emoji-commits.site",
+          href: "https://rock-paper-scissors-lilac-ten.vercel.app/",
           icon: <Icons.openai className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/conventional-emoji-commits/conventional-emoji-commits.site",
+          href: "https://github.com/lucilapastore/rock-paper-scissors",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -223,8 +230,8 @@ export const DATA = {
       video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
     },
     {
-      title: "Conventional Emoji Commits",
-      href: "https://conventional-emoji-commits.site",
+      title: "Crossed Clues Game",
+      href: "https://crossed-clues-game.vercel.app/",
       dates: "Oct 2023 - Present",
       active: true,
       description:
@@ -233,12 +240,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://conventional-emoji-commits.site",
+          href: "https://crossed-clues-game.vercel.app/",
           icon: <Icons.openai className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/conventional-emoji-commits/conventional-emoji-commits.site",
+          href: "https://github.com/lucilapastore/crossed-clues-game",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -246,8 +253,8 @@ export const DATA = {
       video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
     },
     {
-      title: "Conventional Emoji Commits",
-      href: "https://conventional-emoji-commits.site",
+      title: "Project Management App",
+      href: "https://project-management-app-steel.vercel.app/",
       dates: "Oct 2023 - Present",
       active: true,
       description:
@@ -256,12 +263,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://conventional-emoji-commits.site",
+          href: "https://project-management-app-steel.vercel.app/",
           icon: <Icons.openai className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/conventional-emoji-commits/conventional-emoji-commits.site",
+          href: "https://github.com/lucilapastore/project-management-app",
           icon: <Icons.github className="size-3" />,
         },
       ],

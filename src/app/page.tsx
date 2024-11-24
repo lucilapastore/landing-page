@@ -164,11 +164,11 @@ export default function Page() {
                   I like to experiment with web3 technologies
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During this year, I attended {DATA.hackathons.length}+
-                  hackathons. These events brought together talented individuals
-                  from around the world to build projects in 2-3 days. It was
-                  inspiring to discover cutting-edge technologies and learn from
-                  others.
+                  {/*During this year, I attended {DATA.hackathons.length}+
+                  hackathons. */}
+                  These events bring together talented individuals from around
+                  the world to build projects in 2-3 days. It is inspiring to
+                  discover cutting-edge technologies and learn from others.
                 </p>
               </div>
             </div>
