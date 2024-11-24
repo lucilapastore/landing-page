@@ -292,7 +292,7 @@ export const DATA = {
       location: "Chiang Mai, Thailand",
       description:
         "Participated in a ZKP pop-up dev city, dedicated to fostering the synergy of technology, culture, and community.",
-      image: "https://x.com/invisiblgarden/photo",
+      image: "/ig_logo.jpg",
       links: [
         {
           title: "Event Details",
