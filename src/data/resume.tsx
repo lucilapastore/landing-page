@@ -23,11 +23,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    {
-      href: "https://medium.com/@lucilajuliana",
-      icon: NotebookIcon,
-      label: "Blog",
-    },
     { href: "#projects", icon: CodeIcon, label: "Projects" },
     { href: "#contact", icon: PencilLine, label: "Contact" },
   ],
@@ -59,7 +54,7 @@ export const DATA = {
       Telegram: {
         name: "Telegram",
         url: "https://t.me/lucilajulianaa",
-        icon: Icons.x,
+        icon: Icons.telegram,
 
         navbar: true,
       },
