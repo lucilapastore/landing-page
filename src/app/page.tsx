@@ -121,11 +121,11 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Take a look at some of what I've been working on
+                  Take a look at some of what I&apos;ve been working on
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I'm working on projects from simple websites to complex
-                  apps. Here are a few I’ve enjoyed.
+                  I&apos;m working on projects from simple websites to complex
+                  apps. Here are a few I&apos;ve enjoyed.
                 </p>
               </div>
             </div>
@@ -212,7 +212,7 @@ export default function Page() {
                 >
                   with a direct question on twitter
                 </Link>{" "}
-                and I'll respond.
+                and I&apos;ll respond.
               </p>
             </div>
           </BlurFade>
