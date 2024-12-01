@@ -13,8 +13,8 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <section id="hero">
+    <main className="flex flex-col min-h-[100dvh] space-y-8">
+      <section id="hero" className="space-y-4">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
@@ -39,7 +39,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="about">
+      <section id="about" className="space-y-4">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
@@ -50,7 +50,7 @@ export default function Page() {
         </BlurFade>
       </section>
       <section id="work">
-        <div className="flex min-h-0 flex-col gap-y-3">
+        <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
@@ -75,7 +75,7 @@ export default function Page() {
         </div>
       </section>
       <section id="education">
-        <div className="flex min-h-0 flex-col gap-y-3">
+        <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
             <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
@@ -98,7 +98,7 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-3">
+        <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
@@ -113,7 +113,7 @@ export default function Page() {
       </section>
 
       <section id="projects">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-8 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -121,16 +121,16 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Take a look at some of what I&apos;ve been working on
+                  Take a look at some of what I've been working on
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;m working on projects from simple websites to complex
+                  I'm working on projects from simple websites to complex
                   apps. Here are a few I’ve enjoyed.
                 </p>
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto">
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project?.title}
@@ -153,7 +153,7 @@ export default function Page() {
         </div>
       </section>
       <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-8 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -195,7 +195,7 @@ export default function Page() {
         </div>
       </section>
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -212,7 +212,7 @@ export default function Page() {
                 >
                   with a direct question on twitter
                 </Link>{" "}
-                and I&apos;ll respond.
+                and I'll respond.
               </p>
             </div>
           </BlurFade>
