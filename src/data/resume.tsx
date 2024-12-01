@@ -198,8 +198,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
+      video: undefined,
     },
     {
       title: "Rock Paper Scissors Online",
@@ -221,8 +221,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      video: undefined,
     },
     {
       title: "Crossed Clues Game",
@@ -244,8 +244,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
+      image: "https://images.unsplash.com/photo-1632501641765-e568d28b0015?q=80&w=1200&auto=format&fit=crop",
+      video: undefined,
     },
     {
       title: "Project Management App",
@@ -267,8 +267,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
+      image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1200&auto=format&fit=crop",
+      video: undefined,
     },
   ],
   hackathons: [
