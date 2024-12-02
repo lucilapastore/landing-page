@@ -185,7 +185,7 @@ export const DATA = {
       active: true,
       description:
         "The website visitors can use this web application to calculate multiple future values for given investment parameters.",
-      technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
+      technologies: ["React", "JavaScript", "HTML", "CSS"],
       links: [
         {
           type: "Website",
@@ -202,12 +202,12 @@ export const DATA = {
       video: undefined,
     },
     {
-      title: "Rock Paper Scissors Online",
+      title: "Rock Paper Scissors",
       href: "https://rock-paper-scissors-lilac-ten.vercel.app/",
       dates: "Oct 2023 - Present",
       active: true,
       description:
-        "In this mini project, I reviewed conditionals, functions, getElementById, and more.",
+        "A web-based implementation of the classic Rock Paper Scissors game where players can play against the computer.",
       technologies: ["JavaScript", "HTML", "CSS"],
       links: [
         {
@@ -230,8 +230,8 @@ export const DATA = {
       dates: "Oct 2023 - Present",
       active: true,
       description:
-        "A specification for adding human and machine readable meaning to commit messages using color-rich emojis 🌈",
-      technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
+        "You will think of clues to connect pairs of words and have your classmates guess which words you crossed",
+      technologies: ["TypeScript", "JavaScript", "CSS", "Tailwind"],
       links: [
         {
           type: "Website",
@@ -244,7 +244,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://images.unsplash.com/photo-1632501641765-e568d28b0015?q=80&w=1200&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1509062522246-3755977927d7",
       video: undefined,
     },
     {
@@ -253,8 +253,8 @@ export const DATA = {
       dates: "Oct 2023 - Present",
       active: true,
       description:
-        "A specification for adding human and machine readable meaning to commit messages using color-rich emojis 🌈",
-      technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
+        "React application where you can manage your projects, tasks and notes. It's a simple and easy to use tool for project management.",
+      technologies: ["React", "Tailwind"],
       links: [
         {
           type: "Website",
