@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { CodeIcon, HomeIcon, PencilLine } from "lucide-react";
 
 export const DATA = {
   name: "Lucila Pastore",
@@ -179,6 +179,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Privacy Contribution Program",
+      href: "https://www.privacylatam.xyz/",
+      dates: "Oct 2024 - Present",
+      active: true,
+      description:
+        "Waitlist to get early access to our online bootcamp and receive updates on our progress!",
+      technologies: ["React", "Next.js", "Tailwind", "shadcn"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.privacylatam.xyz/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Privacy-Lab-Latam/waitlist",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "opengraph-image.png",
+      video: undefined,
+    },
+    {
       title: "Investment Calculator",
       href: "https://calcuinvest.vercel.app/",
       dates: "Oct 2023 - Present",
@@ -224,29 +247,7 @@ export const DATA = {
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       video: undefined,
     },
-    {
-      title: "Crossed Clues Game",
-      href: "https://crossed-clues-game.vercel.app/",
-      dates: "Oct 2023 - Present",
-      active: true,
-      description:
-        "You will think of clues to connect pairs of words and have your classmates guess which words you crossed",
-      technologies: ["TypeScript", "JavaScript", "CSS", "Tailwind"],
-      links: [
-        {
-          type: "Website",
-          href: "https://crossed-clues-game.vercel.app/",
-          icon: <Icons.openai className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/lucilapastore/crossed-clues-game",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://images.unsplash.com/photo-1509062522246-3755977927d7",
-      video: undefined,
-    },
+
     {
       title: "Project Management App",
       href: "https://project-management-app-steel.vercel.app/",
@@ -267,7 +268,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1200&auto=format&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1200&auto=format&fit=crop",
       video: undefined,
     },
   ],
