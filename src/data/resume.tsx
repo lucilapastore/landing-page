@@ -202,6 +202,29 @@ export const DATA = {
       video: undefined,
     },
     {
+      title: "The Onchain Builder School",
+      href: "https://www.dev3pack.xyz/",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description:
+        "We offer a program designed for women developers transitioning from Web2.",
+      technologies: ["Next.js", "Typescript", "shadcn", "Tailwind"],
+      links: [
+        {
+          type: "Website",
+          href: "https://my-dev3pack.vercel.app/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/my-dev3pack",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "dev3pack.jpg",
+      video: undefined,
+    },
+    {
       title: "Investment Calculator",
       href: "https://calcuinvest.vercel.app/",
       dates: "Oct 2023 - Present",
@@ -222,29 +245,6 @@ export const DATA = {
         },
       ],
       image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
-      video: undefined,
-    },
-    {
-      title: "Rock Paper Scissors",
-      href: "https://rock-paper-scissors-lilac-ten.vercel.app/",
-      dates: "Oct 2023 - Present",
-      active: true,
-      description:
-        "A web-based implementation of the classic Rock Paper Scissors game where players can play against the computer.",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://rock-paper-scissors-lilac-ten.vercel.app/",
-          icon: <Icons.openai className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/lucilapastore/rock-paper-scissors",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       video: undefined,
     },
 
