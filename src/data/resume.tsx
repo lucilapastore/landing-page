@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { CodeIcon, HomeIcon, PencilLine } from "lucide-react";
 
 export const DATA = {
   name: "Lucila Pastore",
@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Marketing graduate turned Developer. I love building trust and social connections. Very active on Twitter.",
   summary:
-    "At the end of july, I quit my job at a fintech to pursue a full-time position in the crypto industry. In the past, [I earned a double degree in social communication and journalism](/#education), [worked in financial services advisory, technical support, and integrations analysis](/#experience), and [completed several blockchain certifications](/#projects). I was also the programming curator & organizer for ZK Track, a week-long event at [Aleph](https://www.aleph.crecimiento.build/) focused on zero-knowledge and privacy.",
+    "In the past, I earned a double degree in [marketing and journalism](/#education), worked in [financial services](/#experience) advisory, [technical support](/#experience), and completed several [blockchain certifications](/#projects). I was also the programming curator & organizer for ZK Track, a week-long event at [Aleph](https://www.aleph.crecimiento.build/) focused on zero-knowledge and privacy.",
   avatarUrl: "/me.png",
   skills: [
     "JavaScript",
@@ -23,11 +23,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    {
-      href: "https://medium.com/@lucilajuliana",
-      icon: NotebookIcon,
-      label: "Blog",
-    },
     { href: "#projects", icon: CodeIcon, label: "Projects" },
     { href: "#contact", icon: PencilLine, label: "Contact" },
   ],
@@ -59,7 +54,7 @@ export const DATA = {
       Telegram: {
         name: "Telegram",
         url: "https://t.me/lucilajulianaa",
-        icon: Icons.x,
+        icon: Icons.telegram,
 
         navbar: true,
       },
@@ -184,13 +179,59 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Privacy Contribution Program",
+      href: "https://www.privacylatam.xyz/",
+      dates: "Oct 2024 - Present",
+      active: true,
+      description:
+        "Waitlist to get early access to our online bootcamp and receive updates on our progress!",
+      technologies: ["React", "Next.js", "Tailwind", "shadcn"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.privacylatam.xyz/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Privacy-Lab-Latam/waitlist",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "opengraph-image.png",
+      video: undefined,
+    },
+    {
+      title: "The Onchain Builder School",
+      href: "https://www.dev3pack.xyz/",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description:
+        "We offer a program designed for women developers transitioning from Web2.",
+      technologies: ["Next.js", "Typescript", "shadcn", "Tailwind"],
+      links: [
+        {
+          type: "Website",
+          href: "https://my-dev3pack.vercel.app/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/my-dev3pack",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "dev3pack.jpg",
+      video: undefined,
+    },
+    {
       title: "Investment Calculator",
       href: "https://calcuinvest.vercel.app/",
       dates: "Oct 2023 - Present",
       active: true,
       description:
         "The website visitors can use this web application to calculate multiple future values for given investment parameters.",
-      technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
+      technologies: ["React", "JavaScript", "HTML", "CSS"],
       links: [
         {
           type: "Website",
@@ -203,63 +244,18 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
+      video: undefined,
     },
-    {
-      title: "Rock Paper Scissors Online",
-      href: "https://rock-paper-scissors-lilac-ten.vercel.app/",
-      dates: "Oct 2023 - Present",
-      active: true,
-      description:
-        "In this mini project, I reviewed conditionals, functions, getElementById, and more.",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://rock-paper-scissors-lilac-ten.vercel.app/",
-          icon: <Icons.openai className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/lucilapastore/rock-paper-scissors",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
-    },
-    {
-      title: "Crossed Clues Game",
-      href: "https://crossed-clues-game.vercel.app/",
-      dates: "Oct 2023 - Present",
-      active: true,
-      description:
-        "A specification for adding human and machine readable meaning to commit messages using color-rich emojis 🌈",
-      technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
-      links: [
-        {
-          type: "Website",
-          href: "https://crossed-clues-game.vercel.app/",
-          icon: <Icons.openai className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/lucilapastore/crossed-clues-game",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
-    },
+
     {
       title: "Project Management App",
       href: "https://project-management-app-steel.vercel.app/",
       dates: "Oct 2023 - Present",
       active: true,
       description:
-        "A specification for adding human and machine readable meaning to commit messages using color-rich emojis 🌈",
-      technologies: ["git", "emoji", "commit", "conventional", "nuxt"],
+        "React application where you can manage your projects, tasks and notes. It's a simple and easy to use tool for project management.",
+      technologies: ["React", "Tailwind"],
       links: [
         {
           type: "Website",
@@ -272,8 +268,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.nyxbui.design/conventional-emoji-commits.mp4",
+      image:
+        "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1200&auto=format&fit=crop",
+      video: undefined,
     },
   ],
   hackathons: [
