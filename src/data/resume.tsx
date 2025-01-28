@@ -8,7 +8,7 @@ export const DATA = {
   location: "Palermo, CABA",
   locationLink: "https://maps.app.goo.gl/SByenyPs3sjPS4Jp7",
   description:
-    "Marketing graduate turned DevRel. I love building trust and social connections. Very active on Twitter.",
+    "Marketing graduate turned Developer. I love building trust and social connections. Very active on Twitter.",
   summary:
     "At the end of july, I quit my job at a fintech to pursue a full-time position in the crypto industry. In the past, [I earned a double degree in social communication and journalism](/#education), [worked in financial services advisory, technical support, and integrations analysis](/#experience), and [completed several blockchain certifications](/#projects). I was also the programming curator & organizer for ZK Track, a week-long event at [Aleph](https://www.aleph.crecimiento.build/) focused on zero-knowledge and privacy.",
   avatarUrl: "/me.png",
