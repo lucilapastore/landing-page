@@ -203,7 +203,7 @@ export const DATA = {
       dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "They offer a program designed for women developers transitioning from Web2.",
+        "Developed a modern landing page for Dev3Pack. They offer a program designed for women developers transitioning from Web2.",
       technologies: ["Next.js", "Typescript", "shadcn", "Tailwind"],
       links: [
         {
