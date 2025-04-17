@@ -179,35 +179,31 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Privacy Contribution Program",
-      href: "https://www.privacylatam.xyz/",
-      dates: "Oct 2024 - Present",
+      title: "Catapulta Landing Page",
+      href: "https://catapulta-landing.vercel.app/",
+      dates: "Mar 2025 - Apr 2025",
       active: true,
       description:
-        "Waitlist to get early access to our online bootcamp and receive updates on our progress!",
-      technologies: ["React", "Next.js", "Tailwind", "shadcn"],
+        "A modern landing page for a platform that simplifies smart contract deployment across multiple blockchain networks.",
+      technologies: ["React", "Next.js", "Typescript", "Tailwind", "shadcn"],
       links: [
         {
           type: "Website",
-          href: "https://www.privacylatam.xyz/",
+          href: "https://catapulta-landing.vercel.app/",
           icon: <Icons.openai className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/Privacy-Lab-Latam/waitlist",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image: "opengraph-image.png",
+      image: "/landing_catapulta.png",
       video: undefined,
     },
+
     {
       title: "The Onchain Builder School",
       href: "https://www.dev3pack.xyz/",
-      dates: "Jan 2025 - Present",
+      dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "We offer a program designed for women developers transitioning from Web2.",
+        "They offer a program designed for women developers transitioning from Web2.",
       technologies: ["Next.js", "Typescript", "shadcn", "Tailwind"],
       links: [
         {
@@ -222,6 +218,29 @@ export const DATA = {
         },
       ],
       image: "dev3pack.jpg",
+      video: undefined,
+    },
+    {
+      title: "SurfyPal",
+      href: "https://surfypal.vercel.app/",
+      dates: "Mar 2025 - Apr 2025",
+      active: true,
+      description:
+        "A Web3-based decentralized travel platform that connects travelers with local Hosts who offer accommodations.",
+      technologies: ["React", "Next.js", "Tailwind", "shadcn"],
+      links: [
+        {
+          type: "Website",
+          href: "https://surfypal.vercel.app/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/surfypal",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/surfypal.png",
       video: undefined,
     },
     {
@@ -247,33 +266,23 @@ export const DATA = {
       image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
       video: undefined,
     },
-
-    {
-      title: "Project Management App",
-      href: "https://project-management-app-steel.vercel.app/",
-      dates: "Oct 2023 - Present",
-      active: true,
-      description:
-        "React application where you can manage your projects, tasks and notes. It's a simple and easy to use tool for project management.",
-      technologies: ["React", "Tailwind"],
-      links: [
-        {
-          type: "Website",
-          href: "https://project-management-app-steel.vercel.app/",
-          icon: <Icons.openai className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/lucilapastore/project-management-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image:
-        "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1200&auto=format&fit=crop",
-      video: undefined,
-    },
   ],
   hackathons: [
+    {
+      title: "Aleph Hackathon",
+      dates: "March 21 - 23, 2025",
+      location: "Buenos Aires, Argentina",
+      description:
+        "We built a Web3 travel app to make peer-to-peer accommodation safer, more affordable, and trustworthy for everyone.",
+      image: "/aleph_hackathon.svg",
+      links: [
+        {
+          title: "Project Details",
+          icon: <Icons.globe className="size-4" />,
+          href: "https://dorahacks.io/buidl/24594",
+        },
+      ],
+    },
     {
       title: "ETHGlobal Bangkok",
       dates: "November 15 - 17, 2024",
@@ -284,9 +293,9 @@ export const DATA = {
         "https://ethglobal.b-cdn.net/events/bangkok/square-logo/default.png",
       links: [
         {
-          title: "Event Details",
+          title: "Project Details",
           icon: <Icons.globe className="size-4" />,
-          href: "https://ethglobal.com/events/bangkok",
+          href: "https://ethglobal.com/showcase/asterisk-daily-check-h1b84",
         },
       ],
     },
