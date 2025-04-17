@@ -152,13 +152,22 @@ export const DATA = {
       end: "Present",
     },
     {
+      school: "Udemy",
+      href: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+      degree: "React - The Complete Guide (incl. Next.js, Redux)",
+      logoUrl: "/udemy_logo.jpeg",
+      start: "2023",
+      end: "2024",
+    },
+    /*
+    {
       school: "Alchemy University",
       href: "https://www.alchemy.com/university",
       degree: "Ethereum Developer Bootcamp",
       logoUrl: "/alchemy_university_logo.jpeg",
       start: "2023",
       end: "2024",
-    },
+    }, */
 
     {
       school: "Microverse",
