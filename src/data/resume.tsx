@@ -8,9 +8,9 @@ export const DATA = {
   location: "Palermo, CABA",
   locationLink: "https://maps.app.goo.gl/SByenyPs3sjPS4Jp7",
   description:
-    "Marketing graduate turned Developer. I love building trust and social connections. Very active on Twitter.",
+    "Marketing graduate turned Developer. I love building user-friendly applications that make a difference.",
   summary:
-    "In the past, I earned a double degree in [marketing and journalism](/#education), worked in [financial services](/#experience) advisory, [technical support](/#experience), and completed several [blockchain certifications](/#projects). I was also the programming curator & organizer for ZK Track, a week-long event at [Aleph](https://www.aleph.crecimiento.build/) focused on zero-knowledge and privacy.",
+    "In the past, I earned a double degree in [marketing and journalism](/#education), worked in [financial services](/#experience), [technical support](/#experience), and completed several [blockchain certifications](/#projects). I was also the programming curator & organizer for ZK Track, a week-long event at [Aleph](https://www.aleph.crecimiento.build/) focused on zero-knowledge and privacy.",
   avatarUrl: "/me.png",
   skills: [
     "JavaScript",
