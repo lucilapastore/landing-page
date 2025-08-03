@@ -1,6 +1,7 @@
 "use client";
 
 import { AssistantModal } from "@/components/assistant-modal";
+import Navbar from "@/components/navbar";
 import { ResumePage } from "@/components/resume-page";
 import { useChat } from "@ai-sdk/react";
 import { AssistantRuntimeProvider } from "@assistant-ui/react";
@@ -14,7 +15,10 @@ export default function Page() {
     <AssistantRuntimeProvider runtime={runtime}>
       <ResumePage />
 
-      <AssistantModal />
+      {/* Wrap both navbar and modal in the same modal context */}
+      <AssistantModal>
+        <Navbar showAssistant={true} />
+      </AssistantModal>
     </AssistantRuntimeProvider>
   );
 }
