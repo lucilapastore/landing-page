@@ -70,14 +70,15 @@ export const DATA = {
   work: [
     {
       company: "Web3Privacy Now",
-      href: "",
+      href: "https://web3privacy.info/",
       badges: [],
       location: "Buenos Aires",
       title: "Local Manager at Ethereum Cypherpunk Congress #2",
       logoUrl: "/w3pn-logo.png",
       start: "May 2025",
       end: "Nov 2025",
-      description: "",
+      description:
+        "Oversee all logistical coordination for Ethereum Cypherpunk Congress (November 16, 2025). I am responsible for transforming their vision into reality on the ground, managing complex venue logistics, vendor relationships, and ensuring exceptional participant experiences.",
     },
     {
       company: "Privacy + Scaling Explorations",
