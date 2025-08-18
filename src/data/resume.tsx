@@ -241,7 +241,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "dev3pack.jpg",
+      image: "/cypherpunk-congress.jpg",
       video: undefined,
     },
     {
