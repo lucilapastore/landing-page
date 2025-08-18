@@ -69,6 +69,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Web3Privacy Now",
+      href: "",
+      badges: [],
+      location: "Buenos Aires",
+      title: "Local Manager at Ethereum Cypherpunk Congress #2",
+      logoUrl: "/w3pn-logo.png",
+      start: "May 2025",
+      end: "Nov 2025",
+      description: "",
+    },
+    {
       company: "Privacy + Scaling Explorations",
       href: "https://pse.dev/en",
       badges: [],
@@ -142,6 +153,7 @@ export const DATA = {
     },
   ],
   education: [
+    /*
     {
       school: "Cyfrin Updraft",
       href: "https://updraft.cyfrin.io/",
@@ -149,7 +161,7 @@ export const DATA = {
       logoUrl: "/cyfrin_updraft.jpeg",
       start: "2024",
       end: "Present",
-    },
+    }, */
     {
       school: "Udemy",
       href: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
@@ -187,6 +199,52 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Web3Privacy Now Explorer",
+      href: "https://explorer-new-ui.vercel.app/",
+      dates: "May 2025 - Jul 2025",
+      active: true,
+      description:
+        "Developed a web application that allows users to explore and showcase privacy-focused projects in the Web3 ecosystem.",
+      technologies: ["React", "Next.js", "Typescript", "Tailwind", "shadcn"],
+      links: [
+        {
+          type: "Website",
+          href: "https://explorer-new-ui.vercel.app/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/explorer-new-ui",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/explorer.jpg",
+      video: undefined,
+    },
+    {
+      title: "Ethereum Cypherpunk Congress 2",
+      href: "https://congress.web3privacy.info/",
+      dates: "Aug 2025 - Present",
+      active: true,
+      description:
+        "Developed a landing page for the largest freedom & privacy activism gathering, facilitated by the Web3Privacy Now collective.",
+      technologies: ["HTML", "CSS", "Tailwind"],
+      links: [
+        {
+          type: "Website",
+          href: "https://congress.web3privacy.info/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/web3privacy/c25bue",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "dev3pack.jpg",
+      video: undefined,
+    },
+    {
       title: "Catapulta Landing Page",
       href: "https://catapulta-landing.vercel.app/",
       dates: "Mar 2025 - Apr 2025",
@@ -221,14 +279,14 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/lucilapastore/my-dev3pack",
+          href: "https://github.com/lucilapastore/dev3pack-landing-page",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "dev3pack.jpg",
       video: undefined,
     },
-    {
+    /* {
       title: "SurfyPal",
       href: "https://surfypal.vercel.app/",
       dates: "Mar 2025 - Apr 2025",
@@ -250,8 +308,8 @@ export const DATA = {
       ],
       image: "/surfypal.png",
       video: undefined,
-    },
-    {
+    }, */
+    /* {
       title: "Investment Calculator",
       href: "https://calcuinvest.vercel.app/",
       dates: "Oct 2023 - Present",
@@ -273,7 +331,7 @@ export const DATA = {
       ],
       image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
       video: undefined,
-    },
+    }, */
   ],
   hackathons: [
     {
