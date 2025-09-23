@@ -341,7 +341,7 @@ export const DATA = {
       location: "Buenos Aires, Argentina",
       description:
         "We built a Web3 travel app to make peer-to-peer accommodation safer, more affordable, and trustworthy for everyone.",
-      image: "/aleph_hackathon.svg",
+      image: "/aleph_hackathon.png",
       links: [
         {
           title: "Project Details",
