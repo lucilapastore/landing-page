@@ -215,7 +215,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/lucilapastore/explorer-new-ui",
+          href: "https://github.com/web3privacy/explorer-new-ui",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -258,6 +258,11 @@ export const DATA = {
           type: "Website",
           href: "https://catapulta-landing.vercel.app/",
           icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/catapulta-landing",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/landing_catapulta.png",
