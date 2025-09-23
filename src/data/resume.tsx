@@ -90,7 +90,7 @@ export const DATA = {
       start: "Apr 2024",
       end: "Oct 2024",
       description:
-        "The Privacy and Scaling Explorations team at the Ethereum Foundation trusted me to lead an 8-week Contribution Program focused on zero-knowledge proof technologies. This position involved significant local engagement alongside online coordination.",
+        "The Privacy Stewards of Ethereum trusted me to lead an 8-week Contribution Program focused on zero-knowledge proof technologies. This position involved significant local engagement alongside online coordination.",
     },
     {
       company: "Wallbit Pay",
