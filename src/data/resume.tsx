@@ -81,12 +81,12 @@ export const DATA = {
         "Oversee all logistical coordination for Ethereum Cypherpunk Congress (November 16, 2025). I am responsible for transforming their vision into reality on the ground, managing complex venue logistics, vendor relationships, and ensuring exceptional participant experiences.",
     },
     {
-      company: "Privacy + Scaling Explorations",
+      company: "Privacy Stewards of Ethereum",
       href: "https://pse.dev/en",
       badges: [],
       location: "Buenos Aires",
       title: "Coordinator at Programmable Cryptography Bootcamp",
-      logoUrl: "/atomic.png",
+      logoUrl: "/pse.jpg",
       start: "Apr 2024",
       end: "Oct 2024",
       description:

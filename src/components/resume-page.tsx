@@ -152,6 +152,48 @@ export function ResumePage() {
           </div>
         </div>
       </section>
+
+      {/*<section id="projects">
+        <div className="space-y-8 w-full py-6">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  My Projects
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Take a look at some of what I&apos;ve been working on
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I&apos;m working on projects from simple websites to complex
+                  apps. Here are a few I&apos;ve enjoyed.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.projects.map((project, id) => (
+              <BlurFade
+                key={project?.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <ProjectCard
+                  href={project?.href}
+                  key={project?.title}
+                  title={project?.title || ""}
+                  description={project?.description || ""}
+                  tags={project?.technologies || []}
+                  dates=""
+                  image={project?.image}
+                  video={project?.video}
+                  links={project?.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>*/}
+
       <section id="hackathons">
         <div className="space-y-8 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -167,8 +209,7 @@ export function ResumePage() {
                   {/*During this year, I attended {DATA.hackathons.length}+
                   hackathons. */}
                   These events bring together talented individuals from around
-                  the world to build projects in 2-3 days. It is inspiring to
-                  discover cutting-edge technologies and learn from others.
+                  the world to build projects in 2-3 days.
                 </p>
               </div>
             </div>
