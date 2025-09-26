@@ -339,6 +339,101 @@ export const DATA = {
       video: undefined,
     }, */
   ],
+  activities: [
+    {
+      title: "University Day",
+      href: "https://explorer-new-ui.vercel.app/",
+      dates: "May 2025 - Jul 2025",
+      active: true,
+      description:
+        "Developed a web application that allows users to explore and showcase privacy-focused projects in the Web3 ecosystem.",
+
+      links: [
+        {
+          type: "About Event",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Social Media",
+          href: "https://x.com/lucilajuliana/status/1906807121053651165",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image: "/university-day.jpg",
+      video: undefined,
+    },
+    {
+      title: "Ski Chalet Brunch at ETHDenver",
+      href: "https://luma.com/111ma08n",
+      dates: "Aug 2025 - Present",
+      active: true,
+      description:
+        "Developed a landing page for the largest freedom & privacy activism gathering, facilitated by the Web3Privacy Now collective.",
+
+      links: [
+        {
+          type: "About Event",
+          href: "https://luma.com/111ma08n",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Social Media",
+          href: "https://x.com/lucilajuliana/status/1896530911438757968",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image: "/crypto-girls.jpeg",
+      video: undefined,
+    },
+    {
+      title: "ZK Week at Aleph",
+      href: "https://catapulta-landing.vercel.app/",
+      dates: "Mar 2025 - Apr 2025",
+      active: true,
+      description:
+        "A modern landing page for a platform that simplifies smart contract deployment across multiple blockchain networks.",
+
+      links: [
+        {
+          type: "Website",
+          href: "https://catapulta-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/catapulta-landing",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image: "/zkweek.jpg",
+      video: undefined,
+    },
+
+    {
+      title: "Women's Growth in Web3",
+      href: "https://www.dev3pack.xyz/",
+      dates: "Jan 2025 - Feb 2025",
+      active: true,
+      description:
+        "Developed a modern landing page for Dev3Pack. They offer a program designed for women developers transitioning from Web2.",
+
+      links: [
+        {
+          type: "Website",
+          href: "https://my-dev3pack.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/dev3pack-landing-page",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image: "/crecimiento-femenino.jpeg",
+      video: undefined,
+    },
+  ],
   hackathons: [
     {
       title: "Aleph Hackathon",

@@ -153,7 +153,7 @@ export function ResumePage() {
         </div>
       </section>
 
-      <section id="projects">
+      <section id="events">
         <div className="space-y-8 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -173,21 +173,21 @@ export function ResumePage() {
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
+            {DATA.activities.map((activity, id) => (
               <BlurFade
-                key={project?.title}
+                key={activity?.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
               >
                 <ProjectCard
-                  href={project?.href}
-                  key={project?.title}
-                  title={project?.title || ""}
-                  description={project?.description || ""}
-                  tags={project?.technologies || []}
+                  href={activity?.href}
+                  key={activity?.title}
+                  title={activity?.title || ""}
+                  description={activity?.description || ""}
+                  tags={activity?.technologies || []}
                   dates=""
-                  image={project?.image}
-                  video={project?.video}
-                  links={project?.links}
+                  image={activity?.image}
+                  video={activity?.video}
+                  links={activity?.links}
                 />
               </BlurFade>
             ))}
