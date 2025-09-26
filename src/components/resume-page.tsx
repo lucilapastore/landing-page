@@ -153,20 +153,21 @@ export function ResumePage() {
         </div>
       </section>
 
-      {/*<section id="projects">
+      <section id="projects">
         <div className="space-y-8 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  My Events
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Take a look at some of what I&apos;ve been working on
+                  Leading crypto events that drive innovation and growth
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;m working on projects from simple websites to complex
-                  apps. Here are a few I&apos;ve enjoyed.
+                  From intimate meetups to major conferences, I orchestrate
+                  events that bring together developers, innovators, and
+                  enthusiasts.
                 </p>
               </div>
             </div>
@@ -192,7 +193,7 @@ export function ResumePage() {
             ))}
           </div>
         </div>
-      </section>*/}
+      </section>
 
       <section id="hackathons">
         <div className="space-y-8 w-full py-6">
