@@ -183,7 +183,7 @@ export function ResumePage() {
                   key={activity?.title}
                   title={activity?.title || ""}
                   description={activity?.description || ""}
-                  tags={activity?.technologies || []}
+                  tags={[]}
                   dates=""
                   image={activity?.image}
                   video={activity?.video}
