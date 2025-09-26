@@ -341,12 +341,12 @@ export const DATA = {
   ],
   activities: [
     {
-      title: "University Day",
-      href: "https://explorer-new-ui.vercel.app/",
-      dates: "May 2025 - Jul 2025",
+      title: "Blockchain Learning Day",
+      href: "",
+      dates: "Mar 2025",
       active: true,
       description:
-        "Developed a web application that allows users to explore and showcase privacy-focused projects in the Web3 ecosystem.",
+        "I was responsible for organizing the event, coordinating the speaker lineup, and managing all logistics.",
 
       links: [
         {
