@@ -396,12 +396,12 @@ export const DATA = {
 
       links: [
         {
-          type: "Website",
+          type: "About Event",
           href: "https://catapulta-landing.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Social Media",
           href: "https://github.com/lucilapastore/catapulta-landing",
           icon: <Icons.x className="size-3" />,
         },
@@ -420,12 +420,12 @@ export const DATA = {
 
       links: [
         {
-          type: "Website",
+          type: "About Event",
           href: "https://my-dev3pack.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Social Media",
           href: "https://github.com/lucilapastore/dev3pack-landing-page",
           icon: <Icons.x className="size-3" />,
         },
