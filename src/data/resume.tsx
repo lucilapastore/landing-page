@@ -342,7 +342,7 @@ export const DATA = {
   activities: [
     {
       title: "Blockchain Learning Day",
-      href: "",
+      href: "https://luma.com/fwp0esvq?tk=nwWLMu",
       dates: "Mar 2025",
       active: true,
       description:
@@ -351,7 +351,7 @@ export const DATA = {
       links: [
         {
           type: "About Event",
-          href: "",
+          href: "https://luma.com/fwp0esvq?tk=nwWLMu",
           icon: <Icons.globe className="size-3" />,
         },
         {
