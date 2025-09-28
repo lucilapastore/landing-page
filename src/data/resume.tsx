@@ -346,7 +346,7 @@ export const DATA = {
       dates: "Mar 2025",
       active: true,
       description:
-        "We gathered university students to learn about blockchain technology, why it matters, and how to get involved, featuring top voices from the Web3 ecosystem.",
+        "We gathered university students to learn about blockchain and how to get involved, featuring top voices from the Web3 ecosystem.",
 
       links: [
         {
@@ -369,7 +369,7 @@ export const DATA = {
       dates: "Aug 2025 - Present",
       active: true,
       description:
-        "We gathered women in the Web3 ecosystem to discuss the challenges they face and how to overcome them.",
+        "We organized a pre-conference brunch and cozy campfire retreat, 8 minutes from the ETHDenver main venue.",
 
       links: [
         {
@@ -388,7 +388,7 @@ export const DATA = {
     },
     {
       title: "ZK Week",
-      href: "https://catapulta-landing.vercel.app/",
+      href: "",
       dates: "Mar 2025 - Apr 2025",
       active: true,
       description:
@@ -397,12 +397,12 @@ export const DATA = {
       links: [
         {
           type: "About Event",
-          href: "https://catapulta-landing.vercel.app/",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Social Media",
-          href: "https://github.com/lucilapastore/catapulta-landing",
+          href: "",
           icon: <Icons.x className="size-3" />,
         },
       ],
@@ -412,21 +412,21 @@ export const DATA = {
 
     {
       title: "Women in Web3 Meetup",
-      href: "https://www.dev3pack.xyz/",
+      href: "",
       dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "Developed a modern landing page for Dev3Pack. They offer a program designed for women developers transitioning from Web2.",
+        "We gathered women in the Web3 ecosystem to discuss the challenges they face and how to overcome them.",
 
       links: [
         {
           type: "About Event",
-          href: "https://my-dev3pack.vercel.app/",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Social Media",
-          href: "https://github.com/lucilapastore/dev3pack-landing-page",
+          href: "",
           icon: <Icons.x className="size-3" />,
         },
       ],
