@@ -364,7 +364,7 @@ export const DATA = {
       video: undefined,
     },
     {
-      title: "Ski Chalet Brunch at ETHDenver",
+      title: "Brunch at ETHDenver",
       href: "https://luma.com/111ma08n",
       dates: "Aug 2025 - Present",
       active: true,
@@ -411,7 +411,7 @@ export const DATA = {
     },
 
     {
-      title: "Women's Growth in Web3",
+      title: "Women in Web3 Meetup",
       href: "https://www.dev3pack.xyz/",
       dates: "Jan 2025 - Feb 2025",
       active: true,
