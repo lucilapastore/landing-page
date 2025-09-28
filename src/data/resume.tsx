@@ -346,7 +346,7 @@ export const DATA = {
       dates: "Mar 2025",
       active: true,
       description:
-        "I was responsible for organizing the event, coordinating the speaker lineup, and managing all logistics.",
+        "We gathered university students to learn about blockchain technology, why it matters, and how to get involved, featuring top voices from the Web3 ecosystem.",
 
       links: [
         {
