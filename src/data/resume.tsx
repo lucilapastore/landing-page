@@ -369,7 +369,7 @@ export const DATA = {
       dates: "Aug 2025 - Present",
       active: true,
       description:
-        "Developed a landing page for the largest freedom & privacy activism gathering, facilitated by the Web3Privacy Now collective.",
+        "We gathered women in the Web3 ecosystem to discuss the challenges they face and how to overcome them.",
 
       links: [
         {
