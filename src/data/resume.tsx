@@ -388,21 +388,21 @@ export const DATA = {
     },
     {
       title: "ZK Week",
-      href: "",
+      href: "https://x.com/lucilajuliana/status/1857503308904280240",
       dates: "Mar 2025 - Apr 2025",
       active: true,
       description:
-        "A modern landing page for a platform that simplifies smart contract deployment across multiple blockchain networks.",
+        "I organized a week-long event focused on ZKPs, MPC, FHE, and privacy-preserving technologies.",
 
       links: [
         {
           type: "About Event",
-          href: "",
+          href: "https://luma.com/l5cx58vt?tk=LEGgit",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Social Media",
-          href: "",
+          href: "https://x.com/lucilajuliana/status/1857503308904280240",
           icon: <Icons.x className="size-3" />,
         },
       ],
