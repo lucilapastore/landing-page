@@ -201,7 +201,7 @@ export const DATA = {
   projects: [
     {
       title: "Web3Privacy Now Explorer",
-      href: "https://explorer-new-ui.vercel.app/",
+      href: "https://explorer.web3privacy.info/",
       dates: "May 2025 - Jul 2025",
       active: true,
       description:
@@ -210,7 +210,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://explorer-new-ui.vercel.app/",
+          href: "https://explorer.web3privacy.info/",
           icon: <Icons.openai className="size-3" />,
         },
         {
@@ -222,6 +222,7 @@ export const DATA = {
       image: "/explorer.jpg",
       video: undefined,
     },
+    /*
     {
       title: "Ethereum Cypherpunk Congress 2",
       href: "https://congress.web3privacy.info/",
@@ -245,6 +246,7 @@ export const DATA = {
       image: "/cypherpunk-congress.jpg",
       video: undefined,
     },
+    */
     {
       title: "Catapulta Landing Page",
       href: "https://catapulta-landing.vercel.app/",
@@ -271,7 +273,7 @@ export const DATA = {
 
     {
       title: "The Onchain Builder School",
-      href: "https://www.dev3pack.xyz/",
+      href: "https://my-dev3pack.vercel.app/",
       dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
@@ -290,6 +292,29 @@ export const DATA = {
         },
       ],
       image: "dev3pack.jpg",
+      video: undefined,
+    },
+    {
+      title: "Investment Calculator",
+      href: "https://calcuinvest.vercel.app/",
+      dates: "Oct 2023 - Present",
+      active: true,
+      description:
+        "The website visitors can use this web application to calculate multiple future values for given investment parameters.",
+      technologies: ["React", "JavaScript", "HTML", "CSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://calcuinvest.vercel.app/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/lucilapastore/investment-calculator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
       video: undefined,
     },
     /* {
