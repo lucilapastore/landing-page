@@ -366,6 +366,29 @@ export const DATA = {
   ],
   activities: [
     {
+      title: "Ethereum Cypherpunk Congress 2",
+      href: "https://congress.web3privacy.info/",
+      dates: "Nov 2025",
+      active: true,
+      description:
+        "The largest freedom & privacy activism gathering, facilitated by the Web3Privacy Now collective.",
+
+      links: [
+        {
+          type: "About Event",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Social Media",
+          href: "https://luma.com/u2sw5kpv",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image: "/ecc2.jpg",
+      video: undefined,
+    },
+    {
       title: "Blockchain Learning Day",
       href: "https://luma.com/fwp0esvq",
       dates: "Mar 2025",
