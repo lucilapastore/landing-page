@@ -73,7 +73,7 @@ export const DATA = {
       href: "https://web3privacy.info/",
       badges: [],
       location: "Buenos Aires",
-      title: "Local Manager at Ethereum Cypherpunk Congress #2",
+      title: "Event Manager at Ethereum Cypherpunk Congress #2",
       logoUrl: "/w3pn-logo.png",
       start: "May 2025",
       end: "Nov 2025",
@@ -386,6 +386,29 @@ export const DATA = {
         },
       ],
       image: "/ecc2.jpg",
+      video: undefined,
+    },
+    {
+      title: "Ethereum Privacy Stack",
+      href: "https://eps25.web3privacy.info/",
+      dates: "Nov 2025",
+      active: true,
+      description:
+        "Ethereum Privacy-focused event of the year featuring 50 speakers from Vitalik Buterin to Kevin Owocki.",
+
+      links: [
+        {
+          type: "About Event",
+          href: "https://eps25.web3privacy.info/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Social Media",
+          href: "https://luma.com/dvxblpgp",
+          icon: <Icons.x className="size-3" />,
+        },
+      ],
+      image: "/eps25.jpg",
       video: undefined,
     },
     {
