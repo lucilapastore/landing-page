@@ -69,6 +69,19 @@ export const DATA = {
 
   work: [
     {
+      company: "Walletbeat",
+      href: "https://beta.walletbeat.eth.limo/",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer & Community Cultivator (Open Source)",
+      logoUrl: "/walletbeat_logo.jpg",
+      start: "Jan 2026",
+      end: "Present",
+      description:
+        "Crafting clean UI and growing community at Walletbeat. I combine my background in communication with hands-on frontend development (React/Next.js/TypeScript, Tailwind, shadcn).",
+    },
+    ,
+    {
       company: "Web3Privacy Now",
       href: "https://web3privacy.info/",
       badges: [],
