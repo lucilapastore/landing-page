@@ -80,7 +80,6 @@ export const DATA = {
       description:
         "Crafting clean UI and growing community at Walletbeat. I combine my background in communication with hands-on frontend development (React/Next.js/TypeScript, Tailwind, shadcn).",
     },
-    ,
     {
       company: "Web3Privacy Now",
       href: "https://web3privacy.info/",
