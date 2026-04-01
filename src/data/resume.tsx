@@ -74,7 +74,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Frontend Developer & Community Cultivator (Open Source)",
-      logoUrl: "/walletbeat_logo.jpg",
+      logoUrl: "/walletbeat_logo.png",
       start: "Jan 2026",
       end: "Present",
       description:
