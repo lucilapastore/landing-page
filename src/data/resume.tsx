@@ -212,6 +212,29 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Walletbeat Redesign",
+      href: "https://beta.walletbeat.eth.limo/",
+      dates: "Feb 2026 - Present",
+      active: true,
+      description:
+        "Redesigned the Walletbeat website to improve the user experience and accessibility.",
+      technologies: ["Astro", "Svelte", "Typescript"],
+      links: [
+        {
+          type: "Website",
+          href: "https://beta.walletbeat.eth.limo/",
+          icon: <Icons.openai className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/walletbeat/walletbeat",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/walletbeat-hero.png",
+      video: undefined,
+    },
+    {
       title: "Web3Privacy Now Explorer",
       href: "https://explorer.web3privacy.info/",
       dates: "May 2025 - Jul 2025",
@@ -234,31 +257,6 @@ export const DATA = {
       image: "/explorer.jpg",
       video: undefined,
     },
-    /*
-    {
-      title: "Ethereum Cypherpunk Congress 2",
-      href: "https://congress.web3privacy.info/",
-      dates: "Aug 2025 - Present",
-      active: true,
-      description:
-        "Developed a landing page for the largest freedom & privacy activism gathering, facilitated by the Web3Privacy Now collective.",
-      technologies: ["HTML", "CSS", "Tailwind"],
-      links: [
-        {
-          type: "Website",
-          href: "https://congress.web3privacy.info/",
-          icon: <Icons.openai className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/web3privacy/c25bue",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/cypherpunk-congress.jpg",
-      video: undefined,
-    },
-    */
     {
       title: "Catapulta Landing Page",
       href: "https://catapulta-landing.vercel.app/",
@@ -306,6 +304,7 @@ export const DATA = {
       image: "dev3pack.jpg",
       video: undefined,
     },
+    /* 
     {
       title: "Investment Calculator",
       href: "https://calcuinvest.vercel.app/",
@@ -329,7 +328,7 @@ export const DATA = {
       image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
       video: undefined,
     },
-    /* {
+   {
       title: "SurfyPal",
       href: "https://surfypal.vercel.app/",
       dates: "Mar 2025 - Apr 2025",
