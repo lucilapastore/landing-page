@@ -105,7 +105,7 @@ export const DATA = {
         "The Privacy Stewards of Ethereum trusted me to lead an 8-week Contribution Program focused on zero-knowledge proof technologies. This position involved significant local engagement alongside online coordination.",
     },
     {
-      company: "Wallbit Pay",
+      company: "Wallbit",
       badges: [],
       href: "https://wallbit.io/",
       location: "Remote",
