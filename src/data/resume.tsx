@@ -142,7 +142,7 @@ export const DATA = {
     },
     {
       company: "PayRetailers",
-      href: "https://splunk.com",
+      href: "https://www.payretailers.com/en",
       badges: [],
       location: "Remote",
       title: "Technical Support and Integrations Analyst",
